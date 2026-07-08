@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+  workflow_dispatch:   # habilita ejecución manual desde GitHub
 
 jobs:
   run-tests:
@@ -37,13 +38,13 @@ jobs:
           CHROME_BIN: /usr/bin/chromium-browser
           CHROMEDRIVER: /usr/bin/chromedriver
           SELENIUM_OPTS: "--incognito"
-        run: pytest --html=report.html
+        run: pytest --html=reports/report.html
 
       - name: Guardar reporte como artefacto
         uses: actions/upload-artifact@v4
         with:
           name: reporte-pytest-html
-          path: report.html
+          path: reports/
 
       - name: Guardar logs como artefacto
         uses: actions/upload-artifact@v4
