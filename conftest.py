@@ -1,19 +1,27 @@
+import os
 import pytest
 from selenium import webdriver
+from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.chrome.options import Options
 from pages.login_page import LoginPage
 from utils.data_loader import load_users_csv
-from datetime import datetime
 import pathlib
 import pytest_html
-import os
 
 @pytest.fixture
 def driver():
-    options = webdriver.ChromeOptions()
+    options = Options()
     options.add_argument("--headless=new")
     options.add_argument("--incognito")
 
-    driver = webdriver.Chrome(options=options)
+    # Detecta si está en GitHub Actions y usa Chromium
+    chrome_path = os.getenv("CHROME_BIN", "/usr/bin/chromium-browser")
+    driver_path = os.getenv("CHROMEDRIVER", "/usr/bin/chromedriver")
+
+    options.binary_location = chrome_path
+    service = Service(driver_path)
+
+    driver = webdriver.Chrome(service=service, options=options)
     yield driver
     driver.quit()
 
@@ -35,3 +43,6 @@ def pytest_runtest_makereport(item, call):
             os.makedirs(screenshot_dir, exist_ok=True)
             file_name = f"{item.name}.png"
             driver.save_screenshot(os.path.join(screenshot_dir, file_name))
+            # Agregar screenshot al reporte HTML
+            if hasattr(rep, "extra"):
+                rep.extra.append(pytest_html.extras.png(os.path.join(screenshot_dir, file_name)))

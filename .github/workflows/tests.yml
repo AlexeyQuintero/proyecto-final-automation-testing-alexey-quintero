@@ -23,15 +23,19 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Instalar Chrome y ChromeDriver
+      - name: Instalar Chromium y ChromeDriver
         run: |
           sudo apt-get update
           sudo apt-get install -y chromium-browser chromium-chromedriver
-          which chromium-browser
-          which chromedriver
+          export CHROME_BIN=$(which chromium-browser)
+          export CHROMEDRIVER=$(which chromedriver)
+          echo "Chrome path: $CHROME_BIN"
+          echo "Driver path: $CHROMEDRIVER"
 
       - name: Ejecutar pruebas (modo incógnito)
         env:
+          CHROME_BIN: /usr/bin/chromium-browser
+          CHROMEDRIVER: /usr/bin/chromedriver
           SELENIUM_OPTS: "--incognito"
         run: pytest --html=report.html
 
