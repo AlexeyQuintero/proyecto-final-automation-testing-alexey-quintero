@@ -44,3 +44,9 @@ jobs:
         with:
           name: reporte-pytest-html
           path: report.html
+
+      - name: Guardar logs como artefacto
+        uses: actions/upload-artifact@v4
+        with:
+          name: logs
+          path: logs/
