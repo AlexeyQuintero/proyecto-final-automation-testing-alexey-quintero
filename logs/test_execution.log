@@ -1,0 +1,187 @@
+2026-07-06 22:17:39,492 [INFO] Usuario accede a la página de login
+2026-07-06 22:17:39,750 [INFO] Ingresando credenciales: usuario=standard_user, password=secret_sauce
+2026-07-06 22:17:39,965 [INFO] Click en botón Login
+2026-07-06 22:17:40,108 [INFO] Validando login exitoso
+2026-07-06 22:17:47,876 [INFO] Usuario accede a la página de login
+2026-07-06 22:17:48,129 [INFO] Ingresando credenciales: usuario=standard_user, password=12345
+2026-07-06 22:17:48,326 [INFO] Click en botón Login
+2026-07-06 22:17:48,413 [INFO] Validando mensaje de error esperado: Epic sadface: Username and password do not match any user in this service
+2026-07-06 22:17:56,092 [INFO] Usuario accede a la página de login
+2026-07-06 22:17:56,347 [INFO] Ingresando credenciales: usuario=standard_user, password=12345
+2026-07-06 22:17:56,540 [INFO] Click en botón Login
+2026-07-06 22:17:56,635 [INFO] Validando mensaje de error esperado: Epic sadface: Username and password do not match any user in this service
+2026-07-06 22:18:04,372 [INFO] Usuario accede a la página de login
+2026-07-06 22:18:04,635 [INFO] Ingresando credenciales: usuario=standart_user, password=secret_sauce
+2026-07-06 22:18:04,833 [INFO] Click en botón Login
+2026-07-06 22:18:04,932 [INFO] Validando mensaje de error esperado: Epic sadface: Username and password do not match any user in this service
+2026-07-06 22:18:12,687 [INFO] Usuario accede a la página de login
+2026-07-06 22:18:12,979 [INFO] Ingresando credenciales: usuario=VACIO, password=secret_sauce
+2026-07-06 22:18:13,181 [INFO] Click en botón Login
+2026-07-06 22:18:13,281 [INFO] Validando mensaje de error esperado: Epic sadface: Username is required
+2026-07-06 22:18:20,972 [INFO] Usuario accede a la página de login
+2026-07-06 22:18:21,266 [INFO] Ingresando credenciales: usuario=standard_user, password=VACIO
+2026-07-06 22:18:21,448 [INFO] Click en botón Login
+2026-07-06 22:18:21,538 [INFO] Validando mensaje de error esperado: Epic sadface: Password is required
+2026-07-06 22:25:25,379 [INFO] Usuario accede a la página de login
+2026-07-06 22:25:25,881 [INFO] Ingresando credenciales: usuario=standard_user, password=secret_sauce
+2026-07-06 22:25:26,081 [INFO] Click en botón Login
+2026-07-06 22:25:26,214 [INFO] Validando login exitoso
+2026-07-06 22:25:26,224 [INFO] Usuario accede al inventario
+2026-07-06 22:25:26,232 [INFO] Agregando producto al carrito: Sauce Labs Backpack
+2026-07-06 22:25:30,014 [INFO] Usuario accede a la página de login
+2026-07-06 22:25:30,284 [INFO] Ingresando credenciales: usuario=standard_user, password=secret_sauce
+2026-07-06 22:25:30,485 [INFO] Click en botón Login
+2026-07-06 22:25:30,625 [INFO] Validando login exitoso
+2026-07-06 22:25:30,636 [INFO] Usuario accede al inventario
+2026-07-06 22:25:30,646 [INFO] Agregando producto al carrito: Sauce Labs Backpack
+2026-07-06 22:34:51,207 [INFO] Usuario accede a la página de login
+2026-07-06 22:34:51,463 [INFO] Ingresando credenciales: usuario=standard_user, password=secret_sauce
+2026-07-06 22:34:51,673 [INFO] Click en botón Login
+2026-07-06 22:34:51,808 [INFO] Validando login exitoso
+2026-07-06 22:34:51,819 [INFO] Usuario accede al inventario
+2026-07-06 22:34:51,829 [INFO] Agregando producto al carrito: Sauce Labs Backpack
+2026-07-06 22:34:52,086 [INFO] Validando que Sauce Labs Backpack está en el carrito
+2026-07-06 22:34:59,893 [INFO] Usuario accede a la página de login
+2026-07-06 22:35:00,140 [INFO] Ingresando credenciales: usuario=standard_user, password=secret_sauce
+2026-07-06 22:35:00,354 [INFO] Click en botón Login
+2026-07-06 22:35:00,495 [INFO] Validando login exitoso
+2026-07-06 22:35:00,504 [INFO] Usuario accede al inventario
+2026-07-06 22:35:00,513 [INFO] Agregando producto al carrito: Sauce Labs Backpack
+2026-07-06 22:35:00,636 [INFO] Agregando producto al carrito: Sauce Labs Bike Light
+2026-07-06 22:35:00,874 [INFO] Validando cantidad de productos en el carrito: 2
+2026-07-06 22:41:59,404 [INFO] Usuario accede a la página de login
+2026-07-06 22:41:59,686 [INFO] Ingresando credenciales: usuario=standard_user, password=secret_sauce
+2026-07-06 22:41:59,907 [INFO] Click en botón Login
+2026-07-06 22:42:00,051 [INFO] Validando login exitoso
+2026-07-06 22:42:00,062 [INFO] Usuario accede al inventario
+2026-07-06 22:42:00,076 [INFO] Agregando producto al carrito: Sauce Labs Backpack
+2026-07-06 22:42:00,194 [INFO] Agregando producto al carrito: Sauce Labs Bike Light
+2026-07-06 22:42:00,438 [INFO] Validando cantidad de productos en el carrito: 2
+2026-07-06 22:42:15,950 [INFO] Usuario accede a la página de login
+2026-07-06 22:42:16,203 [INFO] Ingresando credenciales: usuario=standard_user, password=secret_sauce
+2026-07-06 22:42:16,404 [INFO] Click en botón Login
+2026-07-06 22:42:16,541 [INFO] Validando login exitoso
+2026-07-06 22:42:24,172 [INFO] Usuario accede a la página de login
+2026-07-06 22:42:24,419 [INFO] Ingresando credenciales: usuario=standard_user, password=12345
+2026-07-06 22:42:24,622 [INFO] Click en botón Login
+2026-07-06 22:42:24,716 [INFO] Validando mensaje de error esperado: Epic sadface: Username and password do not match any user in this service
+2026-07-06 22:42:32,381 [INFO] Usuario accede a la página de login
+2026-07-06 22:42:32,620 [INFO] Ingresando credenciales: usuario=standard_user, password=12345
+2026-07-06 22:42:32,816 [INFO] Click en botón Login
+2026-07-06 22:42:32,914 [INFO] Validando mensaje de error esperado: Epic sadface: Username and password do not match any user in this service
+2026-07-06 22:42:40,595 [INFO] Usuario accede a la página de login
+2026-07-06 22:42:40,834 [INFO] Ingresando credenciales: usuario=standart_user, password=secret_sauce
+2026-07-06 22:42:41,029 [INFO] Click en botón Login
+2026-07-06 22:42:41,121 [INFO] Validando mensaje de error esperado: Epic sadface: Username and password do not match any user in this service
+2026-07-06 22:42:48,810 [INFO] Usuario accede a la página de login
+2026-07-06 22:42:49,063 [INFO] Ingresando credenciales: usuario=VACIO, password=secret_sauce
+2026-07-06 22:42:49,256 [INFO] Click en botón Login
+2026-07-06 22:42:49,349 [INFO] Validando mensaje de error esperado: Epic sadface: Username is required
+2026-07-06 22:42:57,087 [INFO] Usuario accede a la página de login
+2026-07-06 22:42:57,330 [INFO] Ingresando credenciales: usuario=standard_user, password=VACIO
+2026-07-06 22:42:57,518 [INFO] Click en botón Login
+2026-07-06 22:42:57,604 [INFO] Validando mensaje de error esperado: Epic sadface: Password is required
+2026-07-06 22:45:42,887 [INFO] Usuario accede a la página de login
+2026-07-06 22:45:43,412 [INFO] Ingresando credenciales: usuario=standard_user, password=secret_sauce
+2026-07-06 22:45:43,630 [INFO] Click en botón Login
+2026-07-06 22:45:43,770 [INFO] Validando login exitoso
+2026-07-06 22:45:43,780 [INFO] Usuario accede al inventario
+2026-07-06 22:45:43,860 [INFO] Validando cantidad de productos en inventario: 6
+2026-07-06 22:49:50,005 [INFO] Usuario accede a la página de login
+2026-07-06 22:49:58,737 [INFO] Usuario accede a la página de login
+2026-07-06 22:50:07,449 [INFO] Usuario accede a la página de login
+2026-07-06 22:50:08,251 [INFO] Validando cantidad de productos en inventario: 6
+2026-07-06 22:50:15,951 [INFO] Usuario accede a la página de login
+2026-07-06 22:50:24,318 [INFO] Usuario accede a la página de login
+2026-07-06 22:50:32,645 [INFO] Usuario accede a la página de login
+2026-07-06 22:50:40,977 [INFO] Usuario accede a la página de login
+2026-07-06 22:50:49,319 [INFO] Usuario accede a la página de login
+2026-07-06 22:50:57,630 [INFO] Usuario accede a la página de login
+2026-07-06 22:57:10,394 [INFO] Usuario accede a la página de login
+2026-07-06 22:57:19,394 [INFO] Usuario accede a la página de login
+2026-07-06 22:57:28,083 [INFO] Usuario accede a la página de login
+2026-07-06 22:57:28,765 [INFO] Validando cantidad de productos en inventario: 6
+2026-07-06 22:57:36,529 [INFO] Usuario accede a la página de login
+2026-07-06 22:57:44,895 [INFO] Usuario accede a la página de login
+2026-07-06 22:57:53,177 [INFO] Usuario accede a la página de login
+2026-07-06 22:58:01,493 [INFO] Usuario accede a la página de login
+2026-07-06 22:58:09,844 [INFO] Usuario accede a la página de login
+2026-07-06 22:58:18,201 [INFO] Usuario accede a la página de login
+2026-07-06 22:58:26,590 [INFO] Usuario accede a la página de login
+2026-07-06 22:58:27,245 [INFO] Usuario hace clic en Logout
+2026-07-06 23:03:37,448 [INFO] Usuario accede a la página de login
+2026-07-06 23:03:38,070 [INFO] Usuario hace clic en Logout
+2026-07-06 23:05:18,911 [INFO] Usuario accede a la página de login
+2026-07-06 23:05:19,527 [INFO] Usuario hace clic en Logout
+2026-07-06 23:06:53,841 [INFO] Usuario accede a la página de login
+2026-07-06 23:06:54,453 [INFO] Usuario hace clic en Logout
+2026-07-06 23:16:04,099 [INFO] Usuario accede a la página de login
+2026-07-06 23:16:04,986 [INFO] Usuario abre el menú hamburguesa
+2026-07-06 23:16:05,057 [INFO] Usuario hace clic en Logout
+2026-07-06 23:34:24,155 [INFO] Usuario accede a la página de login
+2026-07-06 23:34:25,024 [INFO] Usuario abre el menú hamburguesa
+2026-07-06 23:34:25,098 [INFO] Usuario hace clic en Logout
+2026-07-06 23:34:43,140 [INFO] Usuario accede a la página de login
+2026-07-06 23:34:43,740 [INFO] Usuario abre el menú hamburguesa
+2026-07-06 23:34:43,826 [INFO] Usuario hace clic en Logout
+2026-07-06 23:39:32,879 [INFO] Usuario accede a la página de login
+2026-07-06 23:39:33,530 [INFO] Usuario abre el menú hamburguesa
+2026-07-06 23:39:34,167 [INFO] Usuario hace clic en Logout
+2026-07-07 01:36:21,790 [INFO] Usuario accede a la página de login
+2026-07-07 01:36:23,030 [INFO] Usuario abre el menú hamburguesa
+2026-07-07 01:36:23,671 [INFO] Usuario hace clic en Logout
+2026-07-07 20:14:26,272 [INFO] Usuario accede a la página de login
+2026-07-07 20:14:27,173 [INFO] Usuario abre el menú hamburguesa
+2026-07-07 20:14:27,793 [INFO] Usuario hace clic en Logout
+2026-07-07 20:27:51,428 [INFO] Usuario accede a la página de login
+2026-07-07 20:27:52,026 [INFO] Usuario abre el menú hamburguesa
+2026-07-07 20:27:52,646 [INFO] Usuario hace clic en Logout
+2026-07-07 20:28:58,097 [INFO] Usuario accede a la página de login
+2026-07-07 20:28:58,698 [INFO] Usuario abre el menú hamburguesa
+2026-07-07 20:28:59,329 [INFO] Usuario hace clic en Logout
+2026-07-07 20:31:26,008 [INFO] Usuario accede a la página de login
+2026-07-07 20:31:26,595 [INFO] Usuario abre el menú hamburguesa
+2026-07-07 20:31:27,219 [INFO] Usuario hace clic en Logout
+2026-07-07 20:34:04,597 [INFO] Usuario accede a la página de login
+2026-07-07 20:34:05,189 [INFO] Usuario abre el menú hamburguesa
+2026-07-07 20:34:05,816 [INFO] Usuario hace clic en Logout
+2026-07-07 20:35:43,467 [INFO] Usuario accede a la página de login
+2026-07-07 20:35:44,317 [INFO] Usuario abre el menú hamburguesa
+2026-07-07 20:35:44,929 [INFO] Usuario hace clic en Logout
+2026-07-07 20:35:58,570 [INFO] Usuario accede a la página de login
+2026-07-07 20:35:59,171 [INFO] Usuario abre el menú hamburguesa
+2026-07-07 20:35:59,794 [INFO] Usuario hace clic en Logout
+2026-07-07 20:38:51,225 [INFO] Usuario accede a la página de login
+2026-07-07 20:38:51,793 [INFO] Usuario abre el menú hamburguesa
+2026-07-07 20:38:52,417 [INFO] Usuario hace clic en Logout
+2026-07-07 20:39:19,202 [INFO] Usuario accede a la página de login
+2026-07-07 20:39:27,647 [INFO] Usuario accede a la página de login
+2026-07-07 20:39:36,202 [INFO] Usuario accede a la página de login
+2026-07-07 20:39:36,844 [INFO] Validando cantidad de productos en inventario: 6
+2026-07-07 20:39:44,484 [INFO] Usuario accede a la página de login
+2026-07-07 20:39:52,702 [INFO] Usuario accede a la página de login
+2026-07-07 20:40:00,851 [INFO] Usuario accede a la página de login
+2026-07-07 20:40:09,029 [INFO] Usuario accede a la página de login
+2026-07-07 20:40:17,196 [INFO] Usuario accede a la página de login
+2026-07-07 20:40:25,368 [INFO] Usuario accede a la página de login
+2026-07-07 20:40:33,510 [INFO] Usuario accede a la página de login
+2026-07-07 20:40:34,057 [INFO] Usuario abre el menú hamburguesa
+2026-07-07 20:40:34,679 [INFO] Usuario hace clic en Logout
+2026-07-07 20:47:34,901 [INFO] Usuario accede a la página de login
+2026-07-07 20:58:18,847 [INFO] Usuario accede a la página de login
+2026-07-07 21:00:06,761 [INFO] Usuario accede a la página de login
+2026-07-07 21:36:27,535 [INFO] Usuario accede a la página de login
+2026-07-07 22:11:16,762 [INFO] Usuario accede a la página de login
+2026-07-07 22:11:25,606 [INFO] Usuario accede a la página de login
+2026-07-07 22:11:34,169 [INFO] Usuario accede a la página de login
+2026-07-07 22:11:34,817 [INFO] Validando cantidad de productos en inventario: 6
+2026-07-07 22:11:42,545 [INFO] Usuario accede a la página de login
+2026-07-07 22:11:50,780 [INFO] Usuario accede a la página de login
+2026-07-07 22:11:58,898 [INFO] Usuario accede a la página de login
+2026-07-07 22:12:07,080 [INFO] Usuario accede a la página de login
+2026-07-07 22:12:15,207 [INFO] Usuario accede a la página de login
+2026-07-07 22:12:23,409 [INFO] Usuario accede a la página de login
+2026-07-07 22:12:31,541 [INFO] Usuario accede a la página de login
+2026-07-07 22:12:32,051 [INFO] Usuario abre el menú hamburguesa
+2026-07-07 22:12:32,653 [INFO] Usuario hace clic en Logout
+2026-07-07 22:12:40,388 [INFO] Usuario accede a la página de login
