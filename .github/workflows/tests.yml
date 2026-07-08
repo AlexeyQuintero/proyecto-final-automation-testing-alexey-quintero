@@ -1,37 +1,42 @@
-import pytest
-from selenium import webdriver
-from pages.login_page import LoginPage
-from utils.data_loader import load_users_csv
-from datetime import datetime
-import pathlib
-import pytest_html
-import os
+name: Tests automatizados
 
-@pytest.fixture
-def driver():
-    options = webdriver.ChromeOptions()
-    options.add_argument("--headless=new")
-    options.add_argument("--incognito")
+on:
+  push:
+    branches:
+      - main
 
-    driver = webdriver.Chrome(options=options)
-    yield driver
-    driver.quit()
+jobs:
+  run-tests:
+    runs-on: ubuntu-latest
 
-@pytest.fixture
-def driver_logged(driver):
-    login_page = LoginPage(driver)
-    user = load_users_csv()[0]
-    login_page.login(user["username"], user["password"])
-    return driver
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
 
-@pytest.hookimpl(tryfirst=True, hookwrapper=True)
-def pytest_runtest_makereport(item, call):
-    outcome = yield
-    rep = outcome.get_result()
-    if rep.when == "call" and rep.failed:
-        driver = item.funcargs.get("driver")
-        if driver:
-            screenshot_dir = "reports/screenshots"
-            os.makedirs(screenshot_dir, exist_ok=True)
-            file_name = f"{item.name}.png"
-            driver.save_screenshot(os.path.join(screenshot_dir, file_name))
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Instalar dependencias
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Instalar Chrome y ChromeDriver
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y chromium-browser chromium-chromedriver
+          which chromium-browser
+          which chromedriver
+
+      - name: Ejecutar pruebas (modo incógnito)
+        env:
+          SELENIUM_OPTS: "--incognito"
+        run: pytest --html=report.html
+
+      - name: Guardar reporte como artefacto
+        uses: actions/upload-artifact@v4
+        with:
+          name: reporte-pytest-html
+          path: report.html
